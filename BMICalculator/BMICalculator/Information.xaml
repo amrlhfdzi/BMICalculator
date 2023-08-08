@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculator.Information">
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Start" Padding="10,10,10,10">
+        <Grid Padding="10,30,10,0">
+            <StackLayout Grid.Row="0" Grid.Column="0">
+                <ImageButton Grid.Row="0" Grid.Column="0" Source="lotusposition" Clicked="OnYogaClicked" />
+                <Label Grid.Row="0" Grid.Column="0" Text="Yoga Videos" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Grid.Row="0" Grid.Column="1">
+                <ImageButton Grid.Row="0" Grid.Column="1" Source="dish" Clicked="OnFoodClicked"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="Healthy Foods" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Grid.Row="0" Grid.Column="2">
+                <ImageButton Grid.Row="0" Grid.Column="2" Source="barbel" Clicked="OnGymClicked" />
+                <Label Grid.Row="0" Grid.Column="2" Text="Gym" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </StackLayout>
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
